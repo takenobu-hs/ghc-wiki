@@ -5,7 +5,7 @@ want to contribute to GHC, but I don't know quite where to begin." Begin here.
 
 If you have any questions along the way don't hesitate to reach out to the
 community. There are people on the [mailing lists and
-IRC](mailing-lists-and-irc) who will gladly help you (although you may need to
+IRC](mailing-lists-and-irc.md) who will gladly help you (although you may need to
 be patient). Don't forget that all GHC developers are still learning; your
 question is never too silly to ask.
 
@@ -14,7 +14,7 @@ question is never too silly to ask.
 ## Installing Prerequisites
 
 GHC builds on a plethora of platforms; check [Setting up your system
-for building GHC](building/preparation) for detailed instructions for your
+for building GHC](building/preparation.md) for detailed instructions for your
 platform of choice.
 
 A minimal list of prerequisites:
@@ -121,7 +121,7 @@ have been ironed out, you may occasionally run into issues, for which we
 apologize in advance.
 
 Further information on building GHC with Hadrian can be found
-[here](https://gitlab.staging.haskell.org/ghc/ghc/wikis/building/hadrian/quick-start),
+[here](building/hadrian/quick-start.md),
 and on [hadrian's own repository](https://github.com/snowleopard/hadrian).
 
 ## Running your freshly-built GHC
@@ -237,7 +237,7 @@ Note that the subdirectories under `./_build` are named after the stage that
 produced them, not the one that is stored in them. This is why
 `_build/stage1/bin/ghc` is the Stage **2** compiler, built with Stage 1.
 
-[Idiom/Stages](building/architecture/idiom/stages) explains the concept in more
+[Idiom/Stages](building/architecture/idiom/stages.md) explains the concept in more
 detail, and provides a rationale.
 
 ## Finding a task to work on
@@ -256,7 +256,7 @@ ticket for it yet, do file one. The issue tracker is [right
 here](https://gitlab.haskell.org/ghc/ghc/issues/new).
 
 Apart from that, you are encouraged to ask for a starting point on IRC or the
-`ghc-devs` [mailing list](mailing-lists-and-irc). There someone familiar with
+`ghc-devs` [mailing list](mailing-lists-and-irc.md). There someone familiar with
 the process can help you find a ticket that matches your expertise and help you
 when you get stuck.
 
@@ -360,7 +360,7 @@ Here are the tests for properly adding a test case:
 
 Further reading:
 
-- The full guide to [adding test cases](building/running-tests/adding) explores
+- The full guide to [adding test cases](building/running-tests/adding.md) explores
   more features of the testsuite driver.
 
 ## Submitting Your Code
@@ -462,12 +462,12 @@ request:
 
 ## Further Reading
 
-- [Building](building)
-- [Building GHC With Hadrian](https://gitlab.staging.haskell.org/ghc/ghc/wikis/building/hadrian/quick-start)
+- [Building](building.md)
+- [Building GHC With Hadrian](building/hadrian/quick-start.md)
 - [Hadrian](https://github.com/snowleopard/hadrian)
-- [Working Conventions](working-conventions)
-- [The GHC Commentary](commentary)
-- [Debugging](debugging)
+- [Working Conventions](working-conventions.md)
+- [The GHC Commentary](commentary.md)
+- [Debugging](debugging.md)
 - [The Architecture of Open Source Applications: The Glasgow Haskell Compiler](http://www.aosabook.org/en/ghc.html),
   by Simon Marlow and Simon Peyton-Jones, two of the chief architects of GHC
   and Haskell itself
